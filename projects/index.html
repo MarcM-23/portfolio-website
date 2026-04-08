@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Projects Page</title>
+	<link rel="icon" type="image/jpg" href="../Favicon.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../Nav.css">
+	<link rel="stylesheet" href="../Normalize.css">
+</head>
+
+<body class="w3-khaki">
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../about/index.html" >About</a></li>
+			<li><a href="index.html" class="current">Projects</a></li>
+			<li><a href="../contact/index.html">Contact</a>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/marc-moran-642b35244" target="_blank">LinkdedIn</a></li>	
+				</ul>
+			</li>
+		</ul>
+	</nav>
+<!--Used to change the font of "My Projects" -->
+	<style>   
+		.projects-container h2{
+			font-family: "Source Code Pro", monospace;
+			font-optical-sizing: auto;
+			font-weight: 500;
+			font-style: normal;
+			}
+	</style>
+	
+	<div class="projects-container">
+		<h2>My Projects</h2>
+		<div class="project-card">
+			<!-- ><img src="../Multithread.png" style="width: 450px; height: 300px;" alt = "Java Project" class="project-image"> -->
+			<img id="slideshow" src="../Multithread.png" alt="Project Slide" class="slide-image fade">
+			<p id="caption" style="text-align: center; color: black;">Traffic Simulator built in Java using threads and semaphores.</p>
+		</div>
+	  
+		<div class="project-card">
+		  	<h3>Java Traffic Simulator</h3>
+		  	
+			<p>A multithreaded simulation of a traffic intersection using Java to manage car flow and avoid race conditions by using semaphores.</p>
+			<a href="../Car_Problem.pdf" target="_blank">View PDF</a>
+		</div>
+	  
+		<div class="project-card">
+		  	<h3>Restaurant Database using MySQL and Java</h3>
+		  	<p>
+				Created a restaurant database that can provide users with information on Employees, Customers, Menu items, and Order
+				information. The employee table stores information about the restaurant's employees, including their unique employee ID, name,
+				and job position at the restaurant. This table allows the restaurant to efficiently organize its staff and assign roles based on the
+				customers experience.<br><br>
+
+				The Customer table stores information about the restaurant's customers. It also includes a unique ID for each customer, the
+				customer's name, and their phone number. This helps the restaurant manage customers and provides ways to find and contact
+				them. The Menu table stores information about the list of items for sale in the restaurant.<br><br>
+
+				Each menu item has a unique item ID, name, and price. This table helps manage items on the menu and allows the restaurant to
+				easily update and modify them. The Orders table stores information on individual orders, including unique order IDs, customer
+				IDs, employee IDs of staff serving, and timestamps showing when orders were placed.
+			</p>
+
+			<a href="../Restaurant_Database.pdf" target="_blank">View PDF</a>
+		</div>
+
+		<div class="project-card">
+			<h3>Mock Streaming Service</h3>
+			<p>
+			  Created a fake streaming service that used forms so users could sign up for, login, contact support, and search from a catalog on this website that
+			  promotes watching/listening to media in order to fall asleep. Aimed for those who can not sleep without something playing in the background.
+			</p>
+	  	</div>
+	  </div>
+	  <button id="scrollTopBtn" style="display:none;position:fixed;bottom:20px;right:20px;">↑ Top</button>
+	  <script src="../main.js"></script>
+</body>
+</html>

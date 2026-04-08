@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Contact Page</title>
+	<link rel="icon" type="image/jpg" href="Favicon.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../Nav.css">
+	<link rel="stylesheet" href="../Normalize.css">
+</head>
+
+<body class="w3-khaki">
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../about/index.html" >About</a></li>
+			<li><a href="../projects/index.html">Projects</a></li>
+			<li><a href="index.html" class="current">Contact</a>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/marc-moran-642b35244"target="_blank">LinkdedIn</a></li>	
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+		<div class="contact-container">
+			<h2>Contact Me</h2>
+			<form action="#" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+		
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		
+			<label for="subject">Subject:</label>
+			<input type="text" id="subject" name="subject">
+		
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="6" required></textarea>
+		
+			<button type="submit">Send Message</button>
+			</form>
+		</div>
+		
+		<script src = "../main.js"></script>
+	</body>
+</html>

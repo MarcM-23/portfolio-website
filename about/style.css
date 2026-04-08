@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-box {
+    background-color: white;
+    padding: 20px;
+    margin: 40px auto;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
