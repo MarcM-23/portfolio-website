@@ -1,5 +1,7 @@
 # Personal Portfolio Website
 
+<video src="Projects.mp4" width="600" controls></video>
+
 A multi-page personal portfolio website built using HTML, CSS, and JavaScript. This project showcases my skills, projects, and background in IT and software development through a clean, structured, and user-friendly interface.
 
 ## Overview
