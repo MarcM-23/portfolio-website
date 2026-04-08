@@ -1,8 +1,15 @@
 # Personal Portfolio Website
 
+A multi-page personal portfolio website built using HTML, CSS, and JavaScript. This project showcases my skills, projects, and background in IT and software development through a clean, structured, and user-friendly interface.
+
+![Screenshot](WebsiteScreenshot.png)
+![Screenshot](WebsiteScreenshot2.png)
+![Screenshot](WebsiteScreenshot3.png)
+![Screenshot](WebsiteScreenshot4.png)
+![Screenshot](WebsiteScreenshot5.png)
 ![Demo](Projects.gif)
 
-A multi-page personal portfolio website built using HTML, CSS, and JavaScript. This project showcases my skills, projects, and background in IT and software development through a clean, structured, and user-friendly interface.
+
 
 ## Overview
 
